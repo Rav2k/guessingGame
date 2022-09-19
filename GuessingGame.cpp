@@ -1,3 +1,19 @@
+/*
+  1. No global variables. (Global constants are all right.)
+
+2. No strings. Not ever. (You can use cstrings/character arrays, and the cstrin\
+g and cctype libraries are okay. In fact, I recommend using strcmp and strlen i\
+n your projects.)
+
+3. You should include <iostream>, not stdio. (This applies more to C programmer\
+s.)
+ */
+
+/*
+  Author: Ayowade Owojori
+  date:9/9/22
+  Purpose: Guessing game.
+ */
 #include <iostream>
 #include <stdlib.h>
 #include <time.h>
